@@ -5,7 +5,7 @@ function setup() {
   c = random(25)
   strokeWeight(4)
   noFill()
-  inc = random()
+  inc = 15
   k=random()/random()
 }
 
