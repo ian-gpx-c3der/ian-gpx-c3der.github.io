@@ -5,13 +5,14 @@ function setup() {
   c = random(25)
   strokeWeight(4)
   noFill()
+  inc = random()
   k=random()/random()
 }
 
 function draw() {
       translate(width/2,height/2)
 beginShape()
-  for(i=0;i<TWO_PI*15;i+=0.01){
+  for(i=0;i<TWO_PI*inc;i+=0.01){
     r = 200*cos(k*i)
     x = r*cos(i)
     y = r*sin(i)
